@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const client = new Discord.Client() //Constructor client, no servira para los eventos de Discord.js
+const client = new Discord.Client() //Constructor client, nos servira para los eventos de Discord.js
 
 client.on("ready", () => {//ABRIMOS EVENTO. OJJJJOOOO Esto es muy importante
     console.log(`${client.user.username} Listo!`)//Confirmacion en la consola de que el bot se ha encendido correctamente!.    
@@ -15,4 +15,4 @@ if(message.content === "ping") {
 
 })//Cerramos evento
 //Cada vez que se haga un cambio se reinicia el bot
-client.login("ODAyMTkzMTY3NTY2NzY2MTMx.YArqmw.Q3NPq7-J77cmH-R5gSv5Ih-paN0") 
+client.login("TOKEN-SECRETO") 

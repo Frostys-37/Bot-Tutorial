@@ -51,5 +51,8 @@ message.channel.send(av)
 }
 
 })//Cerramos evento
+
+//THIS PACKAGE IS A FINALISE
+
 //Cada vez que se haga un cambio se reinicia el bot
 client.login(config.token) 
